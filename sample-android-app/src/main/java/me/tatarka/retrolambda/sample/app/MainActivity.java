@@ -14,6 +14,7 @@ import me.tatarka.retrolambda.sample.lib.Function;
  * Created by evan on 3/29/15.
  */
 public class MainActivity extends AppCompatActivity {
+
     @Inject
     ResFunction hello;
 

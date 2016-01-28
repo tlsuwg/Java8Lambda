@@ -10,6 +10,7 @@ import me.tatarka.retrolambda.sample.lib.Lib;
  */
 @Module
 public class MyModule {
+
     @Provides
     public ResFunction provideHello() {
         return this::getHello;

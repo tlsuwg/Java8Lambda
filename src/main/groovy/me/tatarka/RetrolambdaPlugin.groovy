@@ -84,6 +84,7 @@ public class RetrolambdaPlugin implements Plugin<Project> {
             case '5': return 49
             case '6': return 50
             case '7': return 51
+
             default:
                 throw new RuntimeException("Unknown java version: $v, only 5, 6 or 7 are accepted")
         }
